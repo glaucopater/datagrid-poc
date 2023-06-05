@@ -1,0 +1,24 @@
+.filter-adornment {
+  align-items: center;
+  display: flex;
+}
+
+.filter-adornment-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  fill: rgba(17, 17, 17, 100%);
+
+}
+
+.active {
+  fill: rgba(6, 117, 28, 100%);
+}

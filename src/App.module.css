@@ -1,0 +1,10 @@
+.app {
+  margin: 50px;
+  font-size: var(--font-size);
+}
+
+@media (1px <= width <= 800px){
+  .app {
+    margin: 5px;
+  }
+}

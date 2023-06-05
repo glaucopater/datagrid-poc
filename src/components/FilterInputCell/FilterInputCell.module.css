@@ -1,0 +1,18 @@
+.filter-input-cell {
+  background: rgba(0, 255, 0, 10%);
+  padding: 10px 5px;
+}
+
+.input {
+  padding: 5px;
+  max-width: 90%;
+}
+
+.input::placeholder {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.cell-type-money {
+  text-align: right;
+}

@@ -1,0 +1,13 @@
+body {
+  --font-size: 14px;
+  --color: rgba(17, 17, 17, 75%);
+  
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: var(--color);
+}
+
+* {
+  box-sizing: border-box;
+}

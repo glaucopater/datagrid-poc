@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+yarn tsc
+yarn test --watchAll=false
+yarn lint
+yarn lint:css

@@ -1,0 +1,21 @@
+.header-cell-content {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.column-name {
+    cursor: pointer;
+}
+
+.cell-type-money {    
+    justify-content: flex-end;
+}
+
+@media (1px <= width <= 800px) {
+    .column-name {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}

@@ -1,0 +1,24 @@
+name: Run tests
+on: push
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Cache node modules
+        uses: actions/cache@v2
+        with:
+          path: |
+            **/node_modules
+          key: ${{ runner.os }}-v2-build-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-v2-build-
+            ${{ runner.os }}-v2-
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Run tests
+        run: yarn test
