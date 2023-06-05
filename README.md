@@ -1,6 +1,6 @@
-# 💅 DataGrid Proof of concept
+# 💅 DataGrid Proof of concept made with React, TypeScript, CSS Modules
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/31e43b90-bcc3-42bd-8dbd-cdbecf2bb988/deploy-status)](https://app.netlify.com/sites/comfy-cendol-ac4ce5/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9e9a1b18-13e6-4000-8cea-31e543440de0/deploy-status)](https://app.netlify.com/sites/candid-buttercream-5b2160/deploys)
 
 
 ## 🔎 Filtering
