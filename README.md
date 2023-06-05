@@ -54,7 +54,7 @@ Since there is no backend in this exercise all data comes from `./src/data.json`
 
 On a real world scenario, you could potentially argue with a backend developer to change the way the data is provided. For this specific exercise our focus in on how you would handle this data in the way you got it right now.
 
-## [Live Demo](https://comfy-cendol-ac4ce5.netlify.app/) 🔥
+## [Live Demo](https://candid-buttercream-5b2160.netlify.app/) 🔥
 
 ![Demo](/demo/screen1.jpg)
 
